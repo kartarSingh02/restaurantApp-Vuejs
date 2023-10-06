@@ -7,22 +7,16 @@
       "id": 1
     },
     {
-      "email": "kart@gmail.com",
+      "email": "kart",
       "name": "kart",
-      "password": "kartsingh",
+      "password": "kart",
       "id": 2
     },
     {
-      "email": "singh",
-      "name": "singh",
-      "password": "singh",
+      "email": "dsa",
+      "name": "sad",
+      "password": "dsa",
       "id": 3
-    },
-    {
-      "email": "s",
-      "name": "s",
-      "password": "s",
-      "id": 4
     }
   ]
 }
