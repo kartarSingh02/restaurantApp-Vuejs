@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "name": "Kartar Singh",
+      "email": "k4kartar4520@gmail.com",
+      "password": "k@12345",
+      "id": 1
+    },
+    {
+      "email": "kart@gmail.com",
+      "name": "kart",
+      "password": "kartsingh",
+      "id": 2
+    },
+    {
+      "email": "singh",
+      "name": "singh",
+      "password": "singh",
+      "id": 3
+    },
+    {
+      "email": "s",
+      "name": "s",
+      "password": "s",
+      "id": 4
+    }
+  ]
+}
