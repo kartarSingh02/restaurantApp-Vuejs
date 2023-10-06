@@ -5,18 +5,6 @@
       "email": "k4kartar4520@gmail.com",
       "password": "k@12345",
       "id": 1
-    },
-    {
-      "email": "kart",
-      "name": "kart",
-      "password": "kart",
-      "id": 2
-    },
-    {
-      "email": "dsa",
-      "name": "sad",
-      "password": "dsa",
-      "id": 3
     }
   ]
 }
