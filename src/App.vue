@@ -29,7 +29,7 @@ export default {
   display: block;
   width: 300px;
   height: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 2px solid brown;
   margin-left: auto;
   margin-right: auto;
