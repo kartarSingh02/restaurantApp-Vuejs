@@ -1,12 +1,12 @@
 <template>
 <NavbarView/>
-    <h1>This is our Home Page</h1>
+    <h1>This is our Update Page</h1>
 </template>
 
 <script>
 import NavbarView from './NavbarView.vue';
 export default {
-    name:'HomeView',
+    name:'UpdateView',
     components:{
       NavbarView,
     },

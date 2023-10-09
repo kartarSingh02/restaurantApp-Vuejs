@@ -15,6 +15,11 @@ export default {
   text-align: center;
 }
 
+body{
+  margin:0;
+  padding: 0;
+}
+
 .restLogo {
   width: 100px;
   margin-top: 50px;

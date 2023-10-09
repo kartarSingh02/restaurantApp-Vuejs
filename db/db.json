@@ -1,16 +1,10 @@
 {
   "users": [
     {
-      "name": "Kartar Singh",
       "email": "k4kartar4520@gmail.com",
-      "password": "k@12345",
+      "name": "Kartar Singh",
+      "password": "Kartar@8950",
       "id": 1
-    },
-    {
-      "email": "",
-      "name": "",
-      "password": "",
-      "id": 2
     }
   ]
 }
