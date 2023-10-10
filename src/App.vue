@@ -31,7 +31,7 @@ body{
 }
 
 .register input, .login input , .form input{
-  display: block;
+  display: flex;
   width: 300px;
   height: 40px;
   margin-bottom: 10px;

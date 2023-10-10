@@ -7,18 +7,30 @@
       "id": 1
     }
   ],
-  "restaurants":[
+  "restaurants": [
     {
-      "id": 1,
-      "name":"Mcdonalds",
-      "location":"delhi",
-      "contact": 9893243243
+      "name": "Mcdonalds",
+      "location": "delhi",
+      "contact": "989322323",
+      "id": 1
     },
     {
       "id": 2,
-      "name":"Mcdo",
-      "location":"delhi sec45",
+      "name": "Mcdo",
+      "location": "delhi sec45",
       "contact": 989324123
+    },
+    {
+      "name": "KFC",
+      "location": "Bengaluru",
+      "contact": "923294323",
+      "id": 3
+    },
+    {
+      "name": "Burger King",
+      "location": "Hyd",
+      "contact": "321097219",
+      "id": 4
     }
   ]
 }

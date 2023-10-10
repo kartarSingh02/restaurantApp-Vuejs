@@ -3,7 +3,6 @@
     <div class="nav">
         <router-link to="/">Home</router-link>
         <router-link to="/add">Add restaurant</router-link>
-        <router-link to="/update">Update restaurant</router-link>
     </div>
     <div class="side">
         <div class="profile">

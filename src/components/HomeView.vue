@@ -1,21 +1,25 @@
 <template>
 <NavbarView/>
-    <h1>This is our Home Page</h1>
-
-      <table class="table"> 
+    <h1>All Restaurants</h1>
+    <div class="table">
+      <table class="table" border="1px"> 
       <tr class="theading">
         <td>Serial No</td>
         <td>Name</td>
         <td>Location</td>
         <td>Contact</td>
+        <td>Actions</td>
       </tr>
         <tr v-for="item in restaurants" :key="item.id">
         <td>{{ item.id }}</td>
         <td>{{ item.name }}</td>
         <td>{{ item.location }}</td>
         <td>{{ item.contact }}</td>
+        <td><router-link :to="'/update/'+item.id" style="text-decoration: none;margin: 0;padding: 0; color:blue">Update
+        </router-link></td>
         </tr>
       </table>
+    </div>
 </template>
 
 <script>
@@ -44,13 +48,14 @@ export default {
 </script>
 
 <style>
-
+h1{
+  margin-top: 30px;
+}
 .table{
   margin-left: auto; 
   margin-right: auto;
-  width: 500px;
-  margin-top: 30px;
-  border: 1px brown;
+  width: 700px;
+  margin-top: 50px;
 }
 .theading td{
   font-weight: bold;
@@ -58,7 +63,4 @@ export default {
   color: white;
 }
 
-td tr{
-  border:1px brown
-}
 </style>
