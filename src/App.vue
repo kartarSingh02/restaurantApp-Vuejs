@@ -30,7 +30,7 @@ body{
   margin-bottom: 20px;
 }
 
-.register input, .login input {
+.register input, .login input , .form input{
   display: block;
   width: 300px;
   height: 40px;
@@ -42,7 +42,7 @@ body{
   border-radius: 5px;
 }
 
-.register button, .login button {
+.register button, .login button, .form button {
   width: 100px;
   height: 40px;
   border: none;
@@ -52,7 +52,7 @@ body{
   cursor: pointer;
 }
 
-.register button:hover, .login button:hover {
+.register button:hover, .login button:hover , .form button:hover{
   background-color: rgb(169, 71, 71);
 }
 </style>

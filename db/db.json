@@ -6,5 +6,19 @@
       "password": "Kartar@8950",
       "id": 1
     }
+  ],
+  "restaurants":[
+    {
+      "id": 1,
+      "name":"Mcdonalds",
+      "location":"delhi",
+      "contact": 9893243243
+    },
+    {
+      "id": 2,
+      "name":"Mcdo",
+      "location":"delhi sec45",
+      "contact": 989324123
+    }
   ]
 }

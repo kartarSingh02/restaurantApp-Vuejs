@@ -56,7 +56,7 @@ export default {
     background-color: white;
     color: brown;
     border-radius: 2px;
-    padding:3px;
+    padding:4px;
 }
 .side{
     display: flex;
