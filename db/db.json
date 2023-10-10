@@ -9,28 +9,28 @@
   ],
   "restaurants": [
     {
-      "name": "Mcdonalds",
-      "location": "delhi",
-      "contact": "989322323",
-      "id": 1
-    },
-    {
-      "id": 2,
-      "name": "Mcdo",
-      "location": "delhi sec45",
-      "contact": 989324123
-    },
-    {
-      "name": "KFC",
-      "location": "Bengaluru",
-      "contact": "923294323",
-      "id": 3
-    },
-    {
       "name": "Burger King",
       "location": "Hyd",
       "contact": "321097219",
       "id": 4
+    },
+    {
+      "name": "MCD",
+      "location": "Chennai",
+      "contact": "21321321",
+      "id": 5
+    },
+    {
+      "name": "BurgerKahlo",
+      "location": "MeenaBazzaar",
+      "contact": "1312321321",
+      "id": 6
+    },
+    {
+      "name": "Meethai",
+      "location": "Bengaluru",
+      "contact": "213213213",
+      "id": 7
     }
   ]
 }

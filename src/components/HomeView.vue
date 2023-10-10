@@ -16,7 +16,9 @@
         <td>{{ item.location }}</td>
         <td>{{ item.contact }}</td>
         <td><router-link :to="'/update/'+item.id" style="text-decoration: none;margin: 0;padding: 0; color:blue">Update
-        </router-link></td>
+        </router-link>
+        <button type="button" v-on:click="deleteRestaurant(item.id)" class="delete">Delete</button>
+        </td>
         </tr>
       </table>
     </div>
@@ -35,14 +37,27 @@ export default {
         restaurants:[]
       }
     },
-    async mounted(){
-    let user = localStorage.getItem('user-info')
-    if(!user){
-        this.$router.push({name:'SignUp'})
-    }
-    let result = await axios.get("http://localhost:3000/restaurants");
-    console.warn(result.data);
-    this.restaurants=result.data;
+    methods:{
+      async deleteRestaurant(id){
+        // console.warn(id)
+        let result = await axios.delete("http://localhost:3000/restaurants/" + id);
+        console.log(result);
+        if(result.status==200){
+          this.loadData();
+        }
+      },
+      async loadData(){
+        let user = localStorage.getItem('user-info')
+        if(!user){
+            this.$router.push({name:'SignUp'})
+        }
+        let result = await axios.get("http://localhost:3000/restaurants");
+        console.warn(result.data);
+        this.restaurants=result.data;
+      }
+    },
+    mounted(){
+      this.loadData();
   }
 }
 </script>
@@ -61,6 +76,15 @@ h1{
   font-weight: bold;
   background-color: brown;
   color: white;
+}
+
+.table .delete{
+  background-color: red;
+  color: white;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 4px;
+  margin-left:10px
 }
 
 </style>
